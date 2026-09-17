@@ -3,6 +3,7 @@ import './App.css';
 
 import AppHeader from './components/Header';
 import AppHero from './components/Hero';
+import AppAbout from './components/about';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header> 
       <main>
         <AppHero />
+        <AppAbout />
       </main>
     </div>
   );
