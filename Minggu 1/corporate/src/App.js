@@ -4,6 +4,7 @@ import './App.css';
 import AppHeader from './components/Header';
 import AppHero from './components/Hero';
 import AppAbout from './components/about';
+import AppServices from './components/services';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <AppHero />
         <AppAbout />
+        <AppServices />
       </main>
     </div>
   );
