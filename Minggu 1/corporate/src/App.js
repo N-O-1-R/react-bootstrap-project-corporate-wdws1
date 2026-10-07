@@ -7,6 +7,7 @@ import AppAbout from './components/about';
 import AppServices from './components/services';
 import AppWorks from './components/works';
 import AppTeams from './components/teams';
+import Testimonials from './components/testimonials';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <AppServices />
         <AppWorks />
         <AppTeams />
+        <Testimonials />
       </main>
     </div>
   );
